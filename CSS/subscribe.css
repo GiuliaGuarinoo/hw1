@@ -1,0 +1,142 @@
+section {
+
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/background.webp');
+    width: 100%;
+    height: 105vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+
+}
+
+#overlay{
+
+    position:absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(214, 132, 189, 0.2);
+    z-index: -5;
+}
+
+form{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    border: 5px solid var(--secondcolor);
+
+}
+
+label {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    color: var(--fourthcolor);
+    font-size: 1.2rem;
+
+}
+
+input {
+    
+    padding: 2px;
+    font-size: 1.2rem;
+    border: 3px solid var(--thirdcolor);
+    font-family: var(--primaryfont), var(--secondfont);
+    color: var(--fourthcolor);
+
+}
+
+#privacy-container {
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start; 
+    margin-top: 10px;
+
+}
+
+span{
+
+    font-style: oblique;
+    font-size: 0.9rem;
+}
+
+#privacy{
+
+    margin-top: 10px;
+
+}
+
+#sub{
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#sub:hover{
+
+    background-color:var(--fifthcolor);
+
+}
+
+.adv{
+    
+    background-color: var(--primarycolor);
+    height: 15px;
+    width:  200px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.error {
+    background-color: var(--secondcolor) ;
+    font-size: 0.8rem;
+    margin: 0;
+    color: var(--fourthcolor);
+    text-align: center;
+    height: 15px;
+    width:  200px;
+}
+
+#submitok{
+    width: 100%;
+    background-color: var(--fourthcolor);
+}
+
+#submitok p{
+
+    font-size: 1.2rem;
+    color: var(--secondcolor);
+    font-family: var(--primaryfont),var(--secondfont);
+    text-align: center;
+}
+
+#submitok p a{
+
+    font-size: 0.8rem;
+    font-style: oblique;
+    color: var(--primarycolor);
+    box-sizing: border-box;
+} 
+#overlay.overlay-index{
+    z-index: 0;
+}
+
+.submit-index{
+    z-index:6
+}
+

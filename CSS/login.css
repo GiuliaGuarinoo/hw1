@@ -1,0 +1,11 @@
+#subscribe-form{
+    height: 50%;
+    width: 30%;
+}
+
+@media(max-width:725px){
+    #subscribe-form{
+        height: 40%;
+        width: 70%;
+    }
+}

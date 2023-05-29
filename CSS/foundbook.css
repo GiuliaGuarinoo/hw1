@@ -1,0 +1,178 @@
+:root{
+    --divfont:'Pacifico';
+}
+#one,#two{
+    width: 30%;
+}
+#found-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:30vh;
+    margin-top: 200px;
+
+}
+#img {
+    
+    border-radius: 50%;
+    border: 5px solid var(--fourthcolor);
+    background-image: url('../images/avatar.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+
+}
+
+h1{
+    color: var(--fourthcolor);
+    font-size: 1.5rem;
+    font-family: var(--primaryfont),var(--secondfont);
+
+}
+section h3{
+
+    letter-spacing: 1.5px;
+    font-family: var(--primaryfont),var(--secondfont);
+    font-size: 2.0rem;
+    margin:0px;
+}
+
+input{
+    height: 30px;
+    width: 320px;
+    color: var(--fourthcolor);
+    border: 4px solid var(--secondcolor);
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+
+#ok{
+    width: 70px;
+    height: 40px;
+    
+}
+
+#message{
+    font-size: 3.0rem;
+    font-family: var(--divfont),var(--secondfont);
+    text-align: center;
+}
+
+.adv{
+    
+    background-color: var(--primarycolor);
+    height: 20px;
+    width:  320px;
+    margin-bottom: 10px;
+}
+
+.error {
+    background-color: var(--secondcolor) ;
+    font-size: 0.9rem;
+    color: var(--fourthcolor);
+    text-align: center;
+    height: 20px;
+    width:  320px;
+}
+
+#form-modal-view{
+    position: absolute;
+    z-index: 1;
+    background-color:var(--secondcolor);
+    border: 10px solid var(--fourthcolor);
+
+
+}
+
+
+.modal-page{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    bottom:0px;
+    z-index:3;
+    margin:0px;
+    background-color: rgba(0,0,0,0.3);
+    height: 100vh;
+    width: 100vw;
+}
+
+
+#choose{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hidden{
+    display:none
+}
+
+h2{
+    font-family: var(--divfont),var(--secondfont);
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+
+}
+.no-scroll{
+    overflow: hidden;   
+}
+
+#title{
+    font-family: var(--primaryfont), var(--secondfont);
+    font-size: 1.5rem;
+    letter-spacing: 1.1px;
+}
+
+.info{
+    font-family: var(--primaryfont), var(--secondfont);
+    font-size: 1.2rem;
+}
+
+#bookinfo{
+    display: flex;
+}
+
+#book{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+@media(max-width:740px){
+    #submit,#exit{
+        width: 100px;
+    }
+    #message{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:740px){
+    #submit,#exit{
+        width: 100px;
+    }
+
+}
+@media(max-width:350px){
+    #id{
+        width: 220px;
+    }
+    .adv{
+        width:220px ;
+    }
+    .error{
+        width: 220px;
+    }
+
+}

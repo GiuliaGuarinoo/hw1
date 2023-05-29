@@ -1,0 +1,69 @@
+:root {
+
+    --primarycolor: white;
+    --secondcolor:#DFD3C3;
+    --thirdcolor:#D0B8A8;
+    --fourthcolor:#85586F;
+    --fifthcolor: #A5D7E8;
+    --primaryfont:'Bree Serif';
+    --secondfont:'Times New Roman';
+}
+
+
+section {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/background.webp');
+    width: 100%;
+    height: 100vh; 
+    margin-top:150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+
+}
+
+#overlay{
+
+    position:absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(214, 132, 189, 0.2);
+    z-index: -5;
+}
+
+section h1 {
+
+    background-color: var(--primarycolor);
+    letter-spacing: 1px;
+    padding:5px;
+    font-family: var(--primaryfont),var(--secondfont);
+
+}
+
+#title {
+
+    margin: 0px;
+    text-align: center;
+    font-family: var(--primaryfont), var(--secondfont);
+    font-size: 4rem;
+    background-color: var(--primarycolor);
+    letter-spacing: 2px;
+    padding: 5px;
+}
+
+@media(max-width:500px){
+
+#title {
+    font-size: 2.5rem;
+    }
+}
+
+
+
